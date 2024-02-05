@@ -1,0 +1,7 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: po1-b2c-cms
+spec:
+  replicas: 1

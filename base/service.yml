@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: po1-b2c-cms
+spec:
+  type: ClusterIP
+  selector:
+    app: po1-b2c-cms
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 8080
