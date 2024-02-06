@@ -3,4 +3,5 @@ kind: ConfigMap
 metadata:
   name: po1-b2c-cms
 data:
+  Serilog__MinimumLevel__Default: Verbose
   ConnectionStrings_umbracoDbDSN: thisisatest
