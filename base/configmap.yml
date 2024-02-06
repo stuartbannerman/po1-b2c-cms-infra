@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: po1-b2c-cms
 data:
-  NODE_ENV: production
+  ConnectionStrings_umbracoDbDSN: thisisatest
