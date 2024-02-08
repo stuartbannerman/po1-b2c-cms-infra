@@ -23,6 +23,8 @@ spec:
         envFrom:
         - configMapRef:
             name: po1-b2c-cms
+        - secretRef:
+            name: po1-b2c-cms
         resources:
           limits:
             cpu: "1"
