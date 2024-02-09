@@ -9,4 +9,4 @@ resources:
 - secret.yml
 - service.yml
 - serviceaccount.yml
-- storage.yaml
+- storage.yml
