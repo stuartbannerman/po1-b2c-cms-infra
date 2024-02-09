@@ -36,3 +36,11 @@ spec:
           requests:
             cpu: "0.1"
             memory: "100Mi"
+        volumeMounts:
+        - name: po1-b2c-cms-media
+          mountPath: /app/wwwroot/media/
+
+      volumes:
+        - name: po1-b2c-cms-media
+          persistentVolumeClaim:
+            claimName: po1-b2c-cms-efs
