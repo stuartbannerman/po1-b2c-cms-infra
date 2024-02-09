@@ -16,7 +16,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: efs-sc
+  storageClassName: po1-b2c-cms
   resources:
     requests:
       storage: 5Gi
