@@ -23,8 +23,12 @@ spec:
         envFrom:
         - configMapRef:
             name: po1-b2c-cms
-        - secretRef:
-            name: po1-b2c-cms
+        env:
+        - name: ConnectionStrings__umbracoDbDSN
+          valueFrom:
+            secretKeyRef:
+              name: po1-b2c-cms
+              key: umbracoDbDSN
         resources:
           limits:
             cpu: "1"
