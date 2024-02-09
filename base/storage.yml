@@ -8,6 +8,9 @@ parameters:
   provisioningMode: efs-ap
   fileSystemId: fs-0c0c55ced34d4cbc7
   directoryPerms: "700"
+mountOptions:
+ - tls
+ - iam
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
