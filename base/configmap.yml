@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: po1-b2c-cms
 data:
-  Serilog__MinimumLevel__Default: Verbose
+  Serilog__MinimumLevel__Default: Information
   Umbraco__CMS__Global__UseHttps: 'false'
