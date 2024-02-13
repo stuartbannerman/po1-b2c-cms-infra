@@ -5,3 +5,4 @@ metadata:
 data:
   Serilog__MinimumLevel__Default: Information
   Umbraco__CMS__Global__UseHttps: 'false'
+  Umbraco__Storage__AWSS3__Media__BucketName: p1-frontend-media-bucket-dev
